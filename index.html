@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>Kragar Duels</title>
+    
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif&family=Poppins&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#b91d47">
+    <meta name="theme-color" content="#ff0000">
+    
+    <meta name="description" content="Русский турнир World of wacraft">
+    
+    <script src="https://kit.fontawesome.com/f15b6a6c87.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+<div class="page">
+<div class="inner" id="inner">
+   
+    <!--SPRITES-->
+    <svg style="display: none;">
+        <symbol id="sword" viewBox="0 0 200.000000 200.000000"><g transform="translate(0.000000,200.000000) scale(0.100000,-0.100000)"
+        fill="" stroke="none">
+        <path d="M265 1708 c2 -7 23 -83 45 -168 l41 -155 412 -412 412 -413 -55 -55
+        -55 -55 60 -60 60 -60 90 90 90 90 132 -132 133 -133 55 55 55 55 -132 132
+        -133 133 90 90 90 90 -60 60 -60 60 -60 -60 -60 -60 -411 411 -411 411 -159
+        49 c-177 54 -175 54 -169 37z"/>
+        <path d="M1605 1658 l-160 -48 -182 -183 c-101 -100 -183 -186 -183 -192 0 -6
+        52 -62 115 -125 l115 -115 190 190 189 190 41 153 c23 84 40 159 38 166 -2 8
+        -49 -2 -163 -36z"/>
+        <path d="M440 845 l-54 -55 89 -90 90 -90 -133 -133 -132 -132 55 -55 55 -55
+        133 133 132 132 92 -92 93 -93 55 55 c30 30 55 59 55 64 0 6 -23 34 -52 63
+        l-52 53 57 58 57 57 -120 120 -120 120 -58 -58 -58 -57 -54 55 c-30 30 -59 55
+        -65 55 -6 0 -35 -25 -65 -55z"/>
+        </g></symbol>
+    </svg>
+    
+    <header class="header" id="header">
+        <div class="header_inner">
+           
+            <div class="header_logo">
+                <svg class="sword_header">
+                    <use xlink:href="#sword"></use>
+                </svg>
+            </div>
+            <nav class="nav" id="nav">
+                <a href="#" class="nav_link" target="_blank" data-scroll="#intro" id="nav_link">Турнир</a>
+                <a href="#" class="nav_link" target="_blank" data-scroll="#rules">Правила</a>
+                <a href="#" class="nav_link" target="_blank" data-scroll="#schedule">Расписание</a>
+                <a href="#" class="nav_link" target="_blank" data-scroll="#sponsor">Спонсоры</a>
+                <a href="https://www.donationalerts.com/c/pasha_bolt" class="nav_link" target="_blank">Поддержать турнир</a>
+                
+            </nav>
+            <button class="burger" type="button" id="burger">
+                <div class="burger_item">Burger</div>
+            </button>
+            
+        </div>
+    </header><!--header-->
+    
+    <div class="intro" id="intro">
+        <div class="container">
+            <div class="intro_inner">
+                <div class="intro_title">Классовый Дуэльный Турнир</div>
+                <div class="intro_fond">Призовой фонд: 24 000р.</div>
+                <div class="intro_data" id="intro_data">12.09.2020</div>
+                <div class="out_time" id="out_time">-------</div>
+                <div class="intro_social">
+                    <a target="_blank" href="https://www.youtube.com/channel/UCWiWcUz0yb8rh2mEsXDAnrw"><i class="fab fa-youtube intro_icon"></i></a>
+                    <a target="_blank" href="https://www.twitch.tv/kragarduels"><i class="fab fa-twitch intro_icon"></i></a>
+                </div>
+            </div>
+        </div>
+    </div><!--intro-->
+    
+    <div class="rules" id="rules">
+        <div class="rules_inner">
+           
+            <h3 class="section_title">Описание:</h3>   
+            <p>Турнир будет проходит по новой классовой механике. Каждый участник выходит только против своего класса(воин vs воин, маг vs маг и т.д).Таким образом, по результатам этого турнира определится 12 чемпионов своего класса.</p>
+            <br>
+            <p>Чемпион своего класса получает награду - 2000р.</p>
+            <br>
+            <p>Турнир делится на 2 этапа: 
+                <li>1 этап - займет 8 дней у будет проходить с 12-19 сентября. Задача этапа - определить сильнейших дуэлянтов за свои классы на Орде и на Альянсе раздельно.</li>
+                <li>2 этап - Финал турнира, бои чемпионов Орды против чемпионов Альянса.</li>
+            </p>
+            <br>
+            <h4 class="rules_h4">Правила:</h4>
+            <li>Участие в турнире может принять любой желающий максимального(120) уровня и в ДД-специализации.</li>
+            <li>Сбор участников будет происходить на месте, посредством ЛФГ.</li>
+            <li>Бои будут происходить на арене, посредством маневров.</li>
+            <li>В первом этапе бои проходят до 2х побед, а во втором этапе до 3х.</li>
+            <li>Для участников нет ограничений по экипировке.</li>
+            <li class="red"><b>Разрешается использовать все, что можно использовать на арене.</b></li>
+            <li>Все участники начинают на нулевом проценте ослабления исцеления. Исключение составляют воины в специализации Неистовство, они начинают на 20% ослабления исцеления.</li>
+            <li>Запрещаются оскорбления участников турнира, комментаторов, организаторов, а также их родственников.</li>
+            <li>Запрещается передача, продажа своего места в турнире другому лицу.</li>    
+            <li>В случае несоблюдения правил турнира, нарушитель наказывается по-усмотрению организатора(организаторов) турнира, вплоть до дисквалификации и наложения запрета на участие в дальнейших турнирах.</li>
+            
+        </div>
+    </div><!--rules-->
+    
+    <div class="schedule" id="schedule">
+        <h3 class="section_title">Расписание:</h3>   
+        <table class="schedule_table">
+        <tr class="schedule_row">
+            <th class="schedule_name">Класс</th>
+            <th class="schedule_name">Фракция</th>
+            <th class="schedule_name">Дата</th>
+            <th class="schedule_name">Время</th>
+        </tr>
+        <tr class="schedule_row">
+            <td class="schedule_data">
+                <span class="hero warrior">Воин</span>
+                <span class="hero priest">Жрец</span>
+                <span class="hero mage">Маг</span>
+            </td>
+            <td class="schedule_data red">Орда</td>
+            <td class="schedule_data">12.09.20</td>
+            <td class="schedule_data">19:00</td>
+        </tr>
+        <tr class="schedule_row">
+            <td class="schedule_data">
+                <span class="hero warrior">Воин</span>
+                <span class="hero priest">Жрец</span>
+                <span class="hero mage">Маг</span>
+            </td>
+            <td class="schedule_data blue">Альянс</td>
+            <td class="schedule_data">13.09.20</td>
+            <td class="schedule_data">19:00</td>
+        </tr>
+        <tr class="schedule_row">
+            <td class="schedule_data">
+                <span class="hero warlock">Чернокнижник</span>
+                <span class="hero hunter">Охотник</span>
+                <span class="hero rogue">Разбойник</span>
+            </td>
+            <td class="schedule_data red">Орда</td>
+            <td class="schedule_data">14.09.20</td>
+            <td class="schedule_data">19:00</td>
+        </tr>
+        <tr class="schedule_row">
+            <td class="schedule_data">
+                <span class="hero warlock">Чернокнижник</span>
+                <span class="hero hunter">Охотник</span>
+                <span class="hero rogue">Разбойник</span>
+            </td>
+            <td class="schedule_data blue">Альянс</td>
+            <td class="schedule_data">15.09.20</td>
+            <td class="schedule_data">19:00</td>
+        </tr>
+        <tr class="schedule_row">
+            <td class="schedule_data">
+                <span class="hero druid">Друид</span>
+                <span class="hero shaman">Шаман</span>
+                <span class="hero paladin">Паладин</span>
+            </td>
+            <td class="schedule_data red">Орда</td>
+            <td class="schedule_data">16.09.20</td>
+            <td class="schedule_data">19:00</td>
+        </tr>
+        <tr class="schedule_row">
+            <td class="schedule_data">
+                <span class="hero druid">Друид</span>
+                <span class="hero shaman">Шаман</span>
+                <span class="hero paladin">Паладин</span>
+            </td>
+            <td class="schedule_data blue">Альянс</td>
+            <td class="schedule_data">17.09.20</td>
+            <td class="schedule_data">19:00</td>
+        </tr>
+        <tr class="schedule_row">
+            <td class="schedule_data">
+                <span class="hero dk">Рыцарь смерти</span>
+                <span class="hero monk">Монах</span>
+                <span class="hero dh">Охотник на демонов</span>
+            </td>
+            <td class="schedule_data red">Орда</td>
+            <td class="schedule_data">18.09.20</td>
+            <td class="schedule_data">19:00</td>
+        </tr>
+        <tr class="schedule_row">
+            <td class="schedule_data">
+                <span class="hero dk">Рыцарь смерти</span>
+                <span class="hero monk">Монах</span>
+                <span class="hero dh">Охотник на демонов</span>
+            </td>
+            <td class="schedule_data blue">Альянс</td>
+            <td class="schedule_data">19.09.20</td>
+            <td class="schedule_data">19:00</td>
+        </tr>
+        <tr class="schedule_row">
+            <td class="schedule_data">Финал</td>
+            <td class="schedule_data"><span class="fraction red">Орда</span>vs<span class="fraction blue">Альянс</span></td>
+            <td class="schedule_data">20.09.20</td>
+            <td class="schedule_data">18:00</td>
+        </tr>
+        </table>
+        <div class="schedule_mobile">Недоступно на мобильной версии</div>
+    </div><!--schedule-->
+    
+    <div class="sponsor" id="sponsor">
+        <h3 class="section_title">Спонсоры:</h3>  
+        <div class="sponsor_inner"> 
+            <div class="sponsor_item kandu_item"><img src="images/kandu1.png" alt=""></div>
+            <div class="sponsor_item"><img src="images/dastgredor.png" alt=""></div>
+        </div>
+        
+    </div><!--sponsor-->
+    
+    <footer class="footer">
+        <div class="footer_inner">
+            
+            <div class="footer_item">
+                <div class="footer_social">
+                    <img class="footer_img" src="images/kragar_icon.png" alt="">
+                    <a target="_blank" href="https://www.youtube.com/channel/UCWiWcUz0yb8rh2mEsXDAnrw"><i class="fab fa-youtube footer_icon"></i></a>
+                    <a target="_blank" href="https://www.twitch.tv/kragarduels"><i class="fab fa-twitch footer_icon"></i></a>
+                </div>
+            </div>
+            <div class="footer_item footer_help">
+                <a class="footer_help_link" target="_blank" href="https://my.qiwi.com/Sergei-GzWRNTeGzp">Поддержать разработчика</a>
+            </div>
+
+        </div><!--footer_inner-->
+    </footer><!--footer-->
+    
+    <div class="copyright">
+        Made by <a href="https://www.youtube.com/channel/UCy0z56TLbLAYPHfPu9CZ7bw?view_as=subscriber" target="_blank">lova_s</a>
+    </div><!--copyright-->
+    
+    <a href="#" id="btn_to_Top"><img class="btn_to_top" src="images/arrow-left.svg" alt=""></a>
+    
+</div><!--inner-->  
+</div><!--page-->
+<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.5.1.min.js"></script>
+<script src="js/main.js"></script>
+
+</body>
+</html>
+
