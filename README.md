@@ -1,1 +1,1 @@
-# ruduel.github.io
+# kragar-duels
